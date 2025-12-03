@@ -131,6 +131,11 @@ input:focus {
     filter: brightness(90%);
 }
 
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
 footer a {
     font-weight: 900;
 }
@@ -147,9 +152,9 @@ footer a {
 }
 
 .right-footer {
-    margin-top: 12px;
     font-weight: 500;
     font-size: 1.15rem;
+    text-align: left;
 }
 
 .right-footer a {
