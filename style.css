@@ -118,6 +118,7 @@ input:focus {
     font-size: 1rem;
     font-weight: 900;
     color: white;
+    border: 1px solid #1f2b1c;
     border-radius: 10px;
     box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.18);
 }
@@ -129,7 +130,6 @@ input:focus {
 
 .submit-btn:active {
     filter: brightness(90%);
-    border: none;
 }
 
 footer {
