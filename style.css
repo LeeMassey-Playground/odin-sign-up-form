@@ -121,6 +121,15 @@ input:focus {
     box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.18);
 }
 
+.submit-btn:hover {
+    filter: brightness(110%);
+    cursor: pointer;
+}
+
+.submit-btn:active {
+    filter: brightness(90%);
+}
+
 footer a {
     font-weight: 900;
 }
