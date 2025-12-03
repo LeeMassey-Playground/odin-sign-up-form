@@ -129,6 +129,7 @@ input:focus {
 
 .submit-btn:active {
     filter: brightness(90%);
+    border: none;
 }
 
 footer {
