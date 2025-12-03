@@ -3,6 +3,8 @@
 A sign-up page I built for **The Odin Project – Intermediate HTML & CSS** curriculum.  
 This is a fake online service sign-up form that focuses on layout, typography, and basic client-side form validation.
 
+**Live Link:** https://leemassey-playground.github.io/odin-sign-up-form/
+
 ![Project Screenshot](./images/screenshot.png)
 
 ---
