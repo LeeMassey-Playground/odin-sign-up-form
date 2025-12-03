@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('fonts/Norse-Bold.woff2') format('woff2'),
+        url('fonts/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    min-width: 1100px;
+    max-width: 75vw;
+    min-height: 925px;
+    max-height: 90vh;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.18);
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar {
+    width: 35%;
+    min-width: 375px;
+    background-image: url('images/halie-west-25xggax4bSA-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.side-bar-logo {
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    padding: 25px;
+    background-color: rgba(2, 2, 2, 0.6);
+    font-family: "Norse", Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px;
+}
+
+.form {
+    width: 65%;
+    background-color: #f0f6ff;
+}
+
+.form-header {
+    font-size: x-large;
+    padding: 50px;
+    font-weight: 600;
+}
+
+.form-main {
+    background-color: white;
+    padding: 50px;
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.18);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 80px 12px 0px;
+}
+
+form label {
+    padding: 4px 0px;
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #545454;
+}
+
+form input {
+    width: 250px;
+    height: 1.75rem;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    font-size: 1.1rem;
+}
+
+input:user-invalid {
+    border-color: red;
+}
+
+.form-footer {
+    padding: 40px 50px;
+}
+
+.submit-btn {
+    padding: 20px 60px;
+    background-color: #596D48;
+    font-size: 1rem;
+    font-weight: 900;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.18);
+}
+
+footer a {
+    font-weight: 900;
+}
+
+.left-footer {
+    align-items: center;
+    margin-top: auto;
+    font-size: 1.15rem;
+    color: white;
+}
+
+.left-footer a {
+    color: white;
+}
+
+.right-footer {
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+
+.right-footer a {
+    color: #596D48;
+}
